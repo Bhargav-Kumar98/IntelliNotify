@@ -47,7 +47,7 @@ To set up IntelliNotify, follow these steps:
 3. **Create the `.env` File**:
    Add your credentials to a `.env` file as follows:
    ```env
-   DISCORD_TOKEN=your_discord_token
+   DISCORD_TOKEN=your_discord_bot_token
    GROQ_API_KEY=your_groq_api_key
    ```
 
