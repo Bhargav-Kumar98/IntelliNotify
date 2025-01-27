@@ -182,9 +182,3 @@ pip install -r requirements.txt
 - **Auto-Reply Capabilities**: Implement automatic responses or suggestions based on message relevance.
 - **Enhanced AI Models**: Integrate additional AI models to further improve message relevance accuracy.
 - **Scalability**: Migrate to cloud-hosted MongoDB and support multiple server environments.
-
----
-
-**Happy Messaging with IntelliNotify!** 🚀
-
---- 
