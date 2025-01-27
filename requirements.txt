@@ -1,0 +1,6 @@
+discord
+python-dotenv
+pymongo
+langchain-groq
+langchain-core
+langchain

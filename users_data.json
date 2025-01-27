@@ -1,0 +1,33 @@
+{
+    "authorized_users": [
+        {
+            "_id": 114112654654765477,
+            "servers": [
+                {
+                    "server_name": "Bhargav's server",
+                    "preferences": [
+                        "Let me know if someone looking for accomodation.",
+                        "Also, let me know if somone wants to travel."
+                    ]
+                },
+                {
+                    "server_name": "ABK's server",
+                    "preferences": [
+                        "Only notify me about mentions."
+                    ]
+                }
+            ]
+        },
+        {
+            "_id": 132568165454777677,
+            "servers": [
+                {
+                    "server_name": "Bhargav's server",
+                    "preferences": [
+                        "Let me know if someone selling anything."
+                    ]
+                }
+            ]
+        }
+    ]
+}
