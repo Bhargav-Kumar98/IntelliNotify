@@ -54,10 +54,50 @@ To set up IntelliNotify, follow these steps:
 4. **Create the `user_data.json` File**:
    Include user ID and preferences in the `user_data.json` file:
    ```json
+
    {
-     "user_id": "123456789",
-     "preferences": ["gaming", "tech", "AI"]
-   }
+        "_id": 8901234567890123456,
+        "servers": [
+            {
+                "server_name": "Tech Enthusiasts",
+                "preferences": [
+                    "Notify me about AI and machine learning discussions.",
+                    "Let me know if someone shares interesting programming tutorials.",
+                    "Alert me if any tech events are being organized."
+                ]
+            },
+            {
+                "server_name": "Gaming Legends",
+                "preferences": [
+                    "Notify me about multiplayer game updates.",
+                    "Let me know if there are any new game releases.",
+                    "Alert me when a gaming tournament is announced."
+                ]
+            }
+        ]
+    },
+    {
+        "_id": 4567890123456789012,
+        "servers": [
+            {
+                "server_name": "Travel Buffs",
+                "preferences": [
+                    "Let me know if someone shares unique travel destinations.",
+                    "Notify me about group travel opportunities.",
+                    "Alert me about travel discounts or promotions."
+                ]
+            },
+            {
+                "server_name": "Foodies Unite",
+                "preferences": [
+                    "Notify me about new restaurant openings.",
+                    "Let me know if there are food festivals happening.",
+                    "Alert me about cooking challenges or recipes."
+                ]
+            }
+        ]
+    }
+
    ```
 
 5. **Initialize the Database**:
